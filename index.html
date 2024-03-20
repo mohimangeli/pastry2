@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sweetest Spot in College Station</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        header, .menu, footer {
+            padding-left: 320px; /* Adjust based on the width of your top-left image to prevent overlap */
+        }
+        .top-left-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 350px; /* Adjust as needed */
+        }
+    </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- Adding the top left image -->
+<img src="logo.jpg" alt="Logo" class="top-left-image">
 
 <header>
     <h1>The Sweetest Spot in College Station</h1>
@@ -14,30 +32,28 @@
 
 <section class="menu">
     <article class="menu-item">
-        <img src="cake.jpg" alt="Cake">
-        <h2>Birthday Cake</h2>
-        <p>$20</p>
-    </article>
-    <article class="menu-item">
-        <img src="cake2.jpg" alt="Cake 2">
-        <h2>Birthday Cake</h2>
-        <p>$22</p>
-    </article>
-    <article class="menu-item">
-        <img src="cake3.jpg" alt="Cake 3">
-        <h2>Number Birthday Cake</h2>
-        <p>$23</p>
-    </article>
-    <article class="menu-item">
-        <img src="cake4.jpg" alt="Cake 4">
-        <h2>Birthday Cake</h2>
-        <p>$23</p>
-    </article>
-    <article class="menu-item">
-        <img src="creamball.jpg" alt="Cake 4"> <!-- Assuming this is another or the same cake but with a different price or just to demonstrate -->
+        <img src="creamball.jpg" alt="Cake 3">
         <h2>Cream Puff</h2>
-        <p>$10</p>
+        <p>$12</p>
     </article>
+    <article class="menu-item">
+        <img src="baklava.jpg" alt="Cake 2">
+        <h2>Baklava</h2>
+        <p>$13</p>
+    </article>
+
+    <article class="menu-item">
+        <img src="cake2.jpg" alt="Cake">
+        <h2>Birthday Cake</h2>
+        <p>Varies based on weight</p>
+    </article>
+    <!-- Repeat for other pastries -->
+    <article class="menu-item">
+        <img src="wedding cake.jpg" alt="Cake 2">
+        <h2>Wedding Cake</h2>
+        <p>Varies based on weight</p>
+    </article>    
+ 
     <!-- Repeat for other pastries -->
 </section>
 
